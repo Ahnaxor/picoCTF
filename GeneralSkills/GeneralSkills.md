@@ -1,6 +1,6 @@
 # Kiến thức học được
 
-### [PWCrack3](https://github.com/shmily-2010/picoCTF/blob/main/GeneralSkills/PWCrack3/PWCrack3.md)
+### [PWCrack3](https://github.com/shmily-2010/picoCTF/tree/main/GeneralSkills/PWCrack3)
 
 - XOR encrypt
 - MD5 hash
