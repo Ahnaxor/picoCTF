@@ -31,3 +31,18 @@ Từ đó, chạy dòng code ```level_3_pw_check()``` chúng ta sẽ có đượ
 ![image](https://github.com/shmily-2010/picoCTF/assets/112896213/f47082c0-b343-4db1-a5e4-b152bcdb76c8)
 
 > Flag: `picoCTF{m45h_fl1ng1ng_6f98a49f}`
+
+### Knowledge
+
+**XOR ENCRYPTION**
+
+- Thuật toán XOR là phương pháp mã hóa đơn giản nhưng hiệu quả, nên nó được sử dụng rất phổ biến
+- XOR sử dụng một text và một key để mã hóa, và cũng sử dụng key đó để giải mã
+  ![image](https://github.com/shmily-2010/picoCTF/assets/112896213/ebcc1114-dd87-4121-9bda-b8e6d7cd8ff1)
+- XOR sẽ rất mạnh nếu:
+  + Một khóa dài không lặp lại
+  + Một khóa mới được tạo ngẫu nhiên và cho bất cứ giao tiếp nào
+  + Khóa được giữ bí mật bởi cả người gửi và người nhận
+- Nếu như key ngắn hơn text thì XOR sẽ xử lý như thế này:
+  ![image](https://github.com/shmily-2010/picoCTF/assets/112896213/b2e9ee24-2f08-4292-a7bb-9e7343300009)
+
