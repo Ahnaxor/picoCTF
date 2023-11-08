@@ -26,7 +26,7 @@ Và đây là password của chúng ta:
 
 ![image](https://github.com/shmily-2010/picoCTF/assets/112896213/207c3e1a-de9a-4d5d-a557-d4c4895c0660)
 
-Từ đó, chạy dòng code `level_3_pw_check()` chúng ta sẽ có được flag.
+Từ đó, chạy dòng code ```level_3_pw_check()``` chúng ta sẽ có được flag.
 
 ![image](https://github.com/shmily-2010/picoCTF/assets/112896213/f47082c0-b343-4db1-a5e4-b152bcdb76c8)
 
