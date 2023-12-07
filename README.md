@@ -1,5 +1,3 @@
-# Học là để cho mình 
-
 # Kiến thức học được
 
 - ### General Skills
