@@ -46,3 +46,28 @@ Từ đó, chạy dòng code ```level_3_pw_check()``` chúng ta sẽ có đượ
 - Nếu như key ngắn hơn text thì XOR sẽ xử lý như thế này:
   ![image](https://github.com/shmily-2010/picoCTF/assets/112896213/b2e9ee24-2f08-4292-a7bb-9e7343300009)
 
+**MD5 HASH**
+
+- MD5 là một thuật toán hàm băm lấy dữ liệu đầu vào có độ dài bất kì và thay đổi nó thành một dữ liệu có độ dài 16 byte. Đầu ra của MD5 luôn có độ dà là 128bit
+- MD5 là sự cải tiến của MD4 với mục đích bảo mật
+- MD5 được sử dụng để:
+  + Xác thực tệp
+  + Bảo mật ứng dụng web (thông tin người dùng, v.v)
+  + Lưu trữ mật khẩu dưới dạng 128bit
+- Cách hoạt động của MD5:
+  1. Nối bit đệm: Dữ liệu gốc + Bit đệm = 512*k - 64
+  2. Nối bit độ dài: Bit độ dài = 64 bit
+  3. Khởi tạo bộ đệm: //Cần thời gian tìm hiểu thêm
+  4. Xử lý dữ liệu: //Cần thời gian tìm hiểu thêm
+- Ưu điểm:
+  + MD5 nhanh hơn và đơn giản để hiểu
+  + MD5 tạo mật khẩu mạnh ở dạng 16 byte
+  + Để tích hợp thuật toán MD5, cần bộ nhớ thấp
+  + Tạo một dữ liệu tóm tắt nhanh và dễ dàng cho dữ liệu gốc
+- Nhược điểm:
+  + MD5 sử dụng cùng một hàm băm cho các đầu vào khác nhau
+  + MD5 bảo mật kém hơn SHA1
+  + MD5 đã được coi là một thuật toán không an toàn
+  + MD5 không phải thuật toán đối xứng hay bất đối xứng
+
+ **SYMMETRIC/ ASYMMETRIC ALGORITHM**
