@@ -8,3 +8,4 @@
     
     - XOR encrypt
     - MD5 hash
+    - Symmetric/ Asymmetric algorithm (Chưa viết)
